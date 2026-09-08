@@ -1,0 +1,13 @@
+vertical_id,vertical_name,baseline_profitability_pct,target_profitability_pct
+V01,Latin America,0.06,0.15
+V02,North America,0.08,0.19
+V03,Europe,0.1,0.12
+V04,Middle East,0.09,0.12
+V05,APAC,0.11,0.14
+V06,India,0.08,0.12
+V07,Australia,0.1,0.13
+V08,Canada,0.09,0.12
+V09,Africa,0.07,0.11
+V10,Nordics,0.1,0.13
+V11,Southeast Asia,0.09,0.12
+V12,Enterprise,0.12,0.15

@@ -1,0 +1,18 @@
+# Generated data
+data/Fact_RequestCapacityEvents_Enriched.csv
+
+# Abandoned Power BI draft
+Global_Capacity_Control_Tower.pbip
+Global_Capacity_Control_Tower.Report/
+Global_Capacity_Control_Tower.SemanticModel/
+build_model.ps1
+build_report.ps1
+refine_saved_report.ps1
+
+# Local and temporary files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

@@ -24,6 +24,18 @@ The report is built in Databricks Dashboards and contains three focused pages.
 | Workforce Capacity | Compares utilization, profitability, revenue, and consultant performance across business verticals. |
 | Vendor Network | Reviews SLA compliance, request volume, response time, weekly movement, and vendors requiring attention. |
 
+### Global Capacity Control Tower
+
+![Global Capacity Control Tower dashboard](images/global-capacity-control-tower.png)
+
+### Workforce Capacity
+
+![Workforce Capacity dashboard](images/workforce-capacity.png)
+
+### Vendor Network
+
+![Vendor Network dashboard](images/vendor-network.png)
+
 [Open the Databricks dashboard](https://dbc-ada626ba-2611.cloud.databricks.com/dashboardsv3/01f1ab51d3b516798606567b7a2354e7/published/pages/27ec13be?o=7474659204199089)
 
 The dashboard is hosted in a private Databricks workspace. The repository contains the complete source data, preparation logic, SQL analysis, metric definitions, and report documentation needed to review or rebuild the project.
@@ -117,6 +129,7 @@ The dashboard uses reusable metric datasets rather than combining the fact table
 Project_04_Global_Team_Vendor_Capacity/
 |-- data/                         Source CSV files
 |-- databricks/                   Databricks setup and dashboard notes
+|-- images/                       Dashboard page previews
 |-- sql/SQL/                      Analytical SQL scripts
 |-- sql/Documentation/            Validated results and business findings
 |-- prepare_databricks_model.py   Request-event enrichment script
